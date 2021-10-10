@@ -33,7 +33,7 @@ class DemoApplicationTests {
                 .andDo(print())
                 .andExpect(status().isOk())
                 .andExpect(content().contentType(MediaType.APPLICATION_JSON))
-                .andExpect(jsonPath("$.template", Is.is("Service message template")));
+                .andExpect(jsonPath("$.template", Is.is("Service message template - fail")));
 
         verify(templateService, times(1)).templateMessage();
     }
