@@ -1,6 +1,6 @@
-package net.trustly.demo.service;
+package com.template.service;
 
-import net.trustly.demo.model.TemplateModel;
+import com.template.model.TemplateModel;
 import org.junit.jupiter.api.Test;
 
 import static org.hamcrest.MatcherAssert.assertThat;

@@ -1,4 +1,4 @@
-package net.trustly.demo.rest;
+package com.template.rest;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
