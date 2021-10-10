@@ -1,4 +1,4 @@
-package net.trustly.demo.model;
+package com.template.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;

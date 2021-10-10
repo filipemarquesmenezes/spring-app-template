@@ -1,7 +1,7 @@
-package net.trustly.demo.service;
+package com.template.service;
 
 import lombok.extern.slf4j.Slf4j;
-import net.trustly.demo.model.TemplateModel;
+import com.template.model.TemplateModel;
 import org.springframework.stereotype.Service;
 
 @Slf4j

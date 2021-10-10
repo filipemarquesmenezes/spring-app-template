@@ -1,11 +1,11 @@
-package net.trustly.demo.rest;
+package com.template.rest;
 
+import com.template.service.TemplateService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.enums.ParameterIn;
 import lombok.extern.slf4j.Slf4j;
-import net.trustly.demo.model.TemplateModel;
-import net.trustly.demo.service.TemplateService;
+import com.template.model.TemplateModel;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,6 +1,6 @@
-package net.trustly.demo;
+package com.template;
 
-import net.trustly.demo.service.TemplateService;
+import com.template.service.TemplateService;
 import org.hamcrest.core.Is;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
